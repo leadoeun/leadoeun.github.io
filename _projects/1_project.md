@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Dataset Artifact and its Mitigation
-description: CS 371N final project 
+description: CS 371N final project. 
+To enhance model robustness against unintended dataset artifacts in pre-trained models, we employ adversarial attacks on the SQuAD dataset. By training the model on a blended dataset combining adversarial and original data, we achieve significant improvements in overall performance against adversarial attacks without compromising the accuracy of original examples, particularly enhancing named entity recognition and temporal question accuracy.
 img: assets/img/12.jpg
 redirect: https://leadoeun.github.io/assets/pdf/dataset_artifact.pdf
 importance: 1
