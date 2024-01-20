@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with 
+title: Dataset Artifact and its Mitigation
+description: CS 371N final project 
 img: assets/img/12.jpg
+redirect: https://leadoeun.github.io/assets/pdf/dataset_artifact.pdf
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
 ---
 
 Every project has a beautiful feature showcase page.
