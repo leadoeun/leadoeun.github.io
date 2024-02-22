@@ -5,7 +5,7 @@ description: CS 371N final project. To enhance model robustness against unintend
 img: assets/img/12.jpg
 redirect: https://leadoeun.github.io/assets/pdf/dataset.pdf
 importance: 1
-category: work
+category: not work
 ---
 
 Every project has a beautiful feature showcase page.
