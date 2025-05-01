@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Dataset Artifact
-description: CS 371N final project. To enhance model robustness against unintended dataset artifacts in pre-trained models, we employ adversarial attacks on the SQuAD dataset. 
-img: /assets/img/proj_dataset_artifact.png
-redirect: https://leadoeun.github.io/assets/pdf/dataset.pdf
-importance: 2
+title: Disease Classifier with Radiology 
+description: CSE 5524 final project. Explored the impact of anatomical segmentation masks on chest X-ray classification by fine-tuning BiomedCLIP under varied training to enhance model interpretability and diagnostic focus.
+img: /assets/img/radiology.png
+redirect: https://leadoeun.github.io/assets/pdf/radiology.pdf
+importance: 3
 category: not work
 ---
 

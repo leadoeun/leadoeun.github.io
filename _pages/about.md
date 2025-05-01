@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate @ UT Austin Computer Science. 
+subtitle: MS in Computer Science and Engineering @ The Ohio State Unviersity. 
 
 profile:
   align: right
@@ -17,8 +17,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I am an undergraduate student at the University of Texas at Austin Computer Science advised by Prof. <a href="https://eunsol.github.io/" rel="external nofollow noopener" target="_blank">Eunsol Choi</a>. 
+Hello! I am a CSE masters student at The Ohio State University advised by <a href="http://shocheen.com" rel="external nofollow noopener" target="_blank">Prof. Sachin Kumar </a>. I completed my undergraduate at University of Texas at Austin Computer Science advised by <a href="https://eunsol.github.io/" rel="external nofollow noopener" target="_blank">Prof. Eunsol Choi</a>. 
 
-My research focuses on the intersection of Natural Language Processing and Human-Computer Interaction. I am interested in the interaction between the user and the large language models. My goal is to build reliable LLMs through the growth in the inclusiveness and developing tools for increasing factuality and stability of the models. 
+My research primiarily focuses on Natural Language Processing and Machine Learning. I am particularly interested in evaluation and adaptation of language model across different tasks and domains. 
 
-I have previously worked as a Software Quality Assurance Engineer intern at SparkCognition and VPlusLab. 
+I have previously worked as a Software Quality Assurance Engineer intern at <a href="https://avathon.com/">Avathon (previously SparkCognition)</a> and VPlusLab. 

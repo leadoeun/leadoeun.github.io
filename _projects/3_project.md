@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Dataset Artifact
-description: CS 371N final project. To enhance model robustness against unintended dataset artifacts in pre-trained models, we employ adversarial attacks on the SQuAD dataset. 
-img: /assets/img/proj_dataset_artifact.png
-redirect: https://leadoeun.github.io/assets/pdf/dataset.pdf
+title: Adversarial Data in LLMs
+description: CSE 6521 final project. Examined the susceptibility of three Transformer-based models against adversarial examples and implemented two mitigation techniques for different real-world conditions.
+img: /assets/img/adversarial.png
+redirect: https://leadoeun.github.io/assets/pdf/CSE6521_Report_Draft.pdf
 importance: 2
 category: not work
 ---
