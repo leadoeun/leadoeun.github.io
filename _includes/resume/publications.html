@@ -1,18 +1,6 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
     {% assign publications = data[1] | sort: 'releaseDate' | reverse %}
-    {% assign pdf_link = entry.pdf | default: entry.fields.pdf %}
-    {% assign code_link = entry.code | default: entry.fields.code %}
-    {% assign web_link = entry.website | default: entry.fields.website | default: entry.url | default: entry.fields.url %}
 
-    {% if pdf_link %}
-      <a class="btn btn-sm" href="{{ pdf_link | prepend: site.baseurl | prepend: '/' }}">PDF</a>
-    {% endif %}
-    {% if code_link %}
-      <a class="btn btn-sm" href="{{ code_link }}">CODE</a>
-    {% endif %}
-    {% if web_link %}
-      <a class="btn btn-sm" href="{{ web_link }}">WEBSITE</a>
-    {% endif %}
     {% for content in publications %}
 
 
