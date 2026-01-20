@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /assets/pdf/DoeunLee_CV_sp2025.pdf
+permalink: /assets/pdf/DoeunLee_CV.pdf
 title: cv
 nav: true
 nav_order: 1
