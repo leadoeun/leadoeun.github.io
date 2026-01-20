@@ -5,8 +5,8 @@ permalink: /
 subtitle: MS in Computer Science and Engineering @ The Ohio State Unviersity. 
 
 profile:
+  align: right
   image: assets/img/prof_pic_2026.jpg
-  align:right
   image_circular: false # crops the image to make it circular
   more_info: >
 
