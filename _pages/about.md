@@ -6,7 +6,7 @@ subtitle: MS in Computer Science and Engineering @ The Ohio State Unviersity.
 
 profile:
   align: right
-  image: assets/img/prof_pic_2026.jpg
+  image: prof_pic_2026.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
