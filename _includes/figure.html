@@ -1,10 +1,9 @@
-<!-- {%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" | remove: ".gif" -%}
+{%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" | remove: ".gif" -%}
 
 <figure>
   <picture>
-    Auto scaling with imagemagick -->
     <!-- See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and 
-      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images -->
     {% if site.imagemagick.enabled %}
       <source class = "responsive-img-srcset" srcset="
       {% for i in site.imagemagick.widths -%}
@@ -31,8 +30,8 @@
 
   {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
 
-</figure> -->
-{%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" | remove: ".gif" -%}
+</figure>
+<!-- {%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" | remove: ".gif" -%}
 
 
 <figure>
@@ -57,9 +56,9 @@
       {% if include.alt %}alt="{{ include.alt }}"{% endif %}
       {% if include.title %}title="{{ include.title }}"{% endif %}
       {% if include.zoomable %}data-zoomable{% endif %}
-      onerror="alert('NEW FIGURE FILE LOADED')"
+      onerror="this.onerror=null; var p=this.parentNode; var s=p?p.querySelector('.responsive-img-srcset'):null; if(s){s.remove();}"
     />
   </picture>
 
   {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
-</figure>
+</figure> -->
