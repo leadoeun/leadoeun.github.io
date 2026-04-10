@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I am a CSE masters student at The Ohio State University advised by <a href="http://shocheen.com" rel="external nofollow noopener" target="_blank">Prof. Sachin Kumar </a>. I completed my undergraduate at University of Texas at Austin Computer Science advised by <a href="https://eunsol.github.io/" rel="external nofollow noopener" target="_blank">Prof. Eunsol Choi</a>. 
+Hello! I am a CSE masters student at The Ohio State University advised by <a href="http://shocheen.com" rel="external nofollow noopener" target="_blank">Prof. Sachin Kumar </a>. I completed my undergraduate at University of Texas at Austin Computer Science. 
 
 My research primiarily focuses on Natural Language Processing and Machine Learning. I am particularly interested in evaluation and adaptation of language model across different tasks and domains. 
 
