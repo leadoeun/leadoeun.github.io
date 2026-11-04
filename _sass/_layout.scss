@@ -34,10 +34,18 @@ body.sticky-bottom-footer {
 }
 
 // About page
+.about-post {
+  width: min(1100px, calc(100vw - 2rem));
+  max-width: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .about-page {
   .about-intro {
     display: grid;
-    grid-template-columns: minmax(380px, 52%) minmax(0, 1fr);
+    grid-template-columns: minmax(360px, 55%) minmax(0, 1fr);
     grid-template-areas: "profile content";
     gap: 2rem;
     align-items: start;
