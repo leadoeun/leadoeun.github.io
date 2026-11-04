@@ -33,6 +33,63 @@ body.sticky-bottom-footer {
   }
 }
 
+// About page
+.about-page {
+  .about-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 42%);
+    gap: 2rem;
+    align-items: start;
+    margin-bottom: 3.5rem;
+  }
+
+  .about-intro--without-profile {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .about-intro__content {
+    min-width: 0;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .about-intro__profile {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-section {
+    margin-top: 3.5rem;
+  }
+
+  .about-section__heading {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+
+    a {
+      font-weight: inherit;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .about-intro {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1.75rem;
+      margin-bottom: 3rem;
+    }
+
+    .about-intro__profile {
+      grid-row: 1;
+    }
+
+    .about-section {
+      margin-top: 3rem;
+    }
+  }
+}
+
 // TODO: redefine content layout.
 
 
