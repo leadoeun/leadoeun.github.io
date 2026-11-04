@@ -34,14 +34,6 @@ body.sticky-bottom-footer {
 }
 
 // About page
-.about-post {
-  width: min(1100px, calc(100vw - 2rem));
-  max-width: none;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .about-page {
   .about-intro {
     display: grid;
