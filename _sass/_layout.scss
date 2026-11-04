@@ -37,7 +37,8 @@ body.sticky-bottom-footer {
 .about-page {
   .about-intro {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(300px, 42%);
+    grid-template-columns: minmax(380px, 52%) minmax(0, 1fr);
+    grid-template-areas: "profile content";
     gap: 2rem;
     align-items: start;
     margin-bottom: 3.5rem;
@@ -45,9 +46,11 @@ body.sticky-bottom-footer {
 
   .about-intro--without-profile {
     grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "content";
   }
 
   .about-intro__content {
+    grid-area: content;
     min-width: 0;
 
     p:last-child {
@@ -56,8 +59,10 @@ body.sticky-bottom-footer {
   }
 
   .about-intro__profile {
-    width: 100%;
-    margin: 0;
+    grid-area: profile;
+    width: 100% !important;
+    max-width: none;
+    margin: 0 !important;
   }
 
   .about-section {
@@ -73,15 +78,14 @@ body.sticky-bottom-footer {
     }
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 650px) {
     .about-intro {
       grid-template-columns: minmax(0, 1fr);
+      grid-template-areas:
+        "profile"
+        "content";
       gap: 1.75rem;
       margin-bottom: 3rem;
-    }
-
-    .about-intro__profile {
-      grid-row: 1;
     }
 
     .about-section {

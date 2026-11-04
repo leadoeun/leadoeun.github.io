@@ -13,10 +13,6 @@ layout: default
 
         <article class="about-page">
           <div class="about-intro{% unless page.profile %} about-intro--without-profile{% endunless %}">
-            <div class="about-intro__content">
-              {{ content }}
-            </div>
-
           {% if page.profile -%}
           <div class="profile about-intro__profile">
             {%- if page.profile.image %}
@@ -45,6 +41,10 @@ layout: default
             {%- endif %}
           </div>
           {%- endif %}
+
+            <div class="about-intro__content">
+              {{ content }}
+            </div>
           </div>
 
           <!-- News -->
