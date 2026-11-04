@@ -36,21 +36,11 @@ body.sticky-bottom-footer {
 // About page
 .about-page {
   .about-intro {
-    display: grid;
-    grid-template-columns: minmax(360px, 55%) minmax(0, 1fr);
-    grid-template-areas: "profile content";
-    gap: 2rem;
-    align-items: start;
+    display: flow-root;
     margin-bottom: 3.5rem;
   }
 
-  .about-intro--without-profile {
-    grid-template-columns: minmax(0, 1fr);
-    grid-template-areas: "content";
-  }
-
   .about-intro__content {
-    grid-area: content;
     min-width: 0;
 
     p:last-child {
@@ -59,10 +49,10 @@ body.sticky-bottom-footer {
   }
 
   .about-intro__profile {
-    grid-area: profile;
-    width: 100% !important;
+    float: left;
+    width: 55% !important;
     max-width: none;
-    margin: 0 !important;
+    margin: 0 2rem 1rem 0 !important;
   }
 
   .about-section {
@@ -80,12 +70,13 @@ body.sticky-bottom-footer {
 
   @media (max-width: 650px) {
     .about-intro {
-      grid-template-columns: minmax(0, 1fr);
-      grid-template-areas:
-        "profile"
-        "content";
-      gap: 1.75rem;
       margin-bottom: 3rem;
+    }
+
+    .about-intro__profile {
+      float: none;
+      width: 100% !important;
+      margin: 0 0 1.75rem !important;
     }
 
     .about-section {
